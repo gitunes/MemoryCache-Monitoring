@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Plaka Kodu Sorgulama";
+}
+
+<div class="d-flex flex-column align-items-center justify-content-center mt-5">
+    <div class="p-2">
+        <label>Plaka Kodu: </label>
+        <input id="plateCode" type="number" placeholder="Bir plaka kodu giriniz." />
+    </div>
+
+    <div class="p-2">
+        <button id="getValueBtn">Sorgula</button>
+        <button id="clear">Temizle</button>
+    </div>
+    
+</div>
+<div id="history" class="d-flex flex-column align-items-center justify-content-center mt-3">
+    <ul id="listHistory"></ul>
+</div>
